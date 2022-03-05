@@ -1,10 +1,17 @@
 import "base.proto";           // описание protobuf-типов
 import "facttypes_base.proto"; // описание protobuf-типа NFactType.TFact
 
-message MountainChain: NFactType.TFact 
+message Step: NFactType.TFact 
 {
-  optional string Name = 1;
-  optional string HighestPeak = 2;
-  optional string HighestPeakHeight = 3;
+  required string Action = 1;
+  optional string Object = 2;
+  optional string Time = 3;
+}
+
+message Ingredient: NFactType.TFact 
+{
+  required string Product = 1;
+  optional string Quantity = 2;
+  optional string Measurement = 3;
 }
 

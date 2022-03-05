@@ -6,16 +6,16 @@ TTextMinerConfig {
   PrettyOutput = "PrettyOutput.html"; // путь к файлу с отладочным выводом в удобном для чтения виде
 
   Input = {
-    File = "test.txt"; // путь к входному файлу
+    File = "chack-chack.txt"; // путь к входному файлу
   }
 
   Articles = [
-    { Name = "горы" } // название статьи в корневом словаре,
+    { Name = "рецепты" } // название статьи в корневом словаре,
                                           // которая содержит запускаемую грамматику
   ]
 
   Facts = [
-    { Name = "MountainChain" }
+    { Name = "Ingredient"}, {Name="Step" }
   ]
 
   Output = {

@@ -7,7 +7,7 @@ import "facttypes.proto";
 
 
 
-TAuxDicArticle "горы"
+TAuxDicArticle "рецепты"
 {
-    key = { "tomita:gory.cxx" type=CUSTOM }
+    key = { "tomita:recipe.cxx" type=CUSTOM }
 }
