@@ -22,7 +22,7 @@
 		Quantity = 2
 		Measurement = желток
 	}
-В 300 г муки добавить взбитые яйца , 1/2 ч . ложки соли , 1 ч . ложка соды и 1 ч . ложка сока лимона . 
+В 300 г муки добавить взбитые яйца , 1/2 чайной ложки соли , 1 ч ложка соды и 1 ч . ложка сока лимона . 
 	Ingredient
 	{
 		Product = мука
@@ -39,10 +39,23 @@
 		Action = добавить
 		Object = взбитое яйцо
 	}
-	Step
+	Ingredient
 	{
-		Action = солить
-		Object = ложок
+		Product = соль
+		Quantity = 1/2
+		Measurement = чайная ложка
+	}
+	Ingredient
+	{
+		Product = сода
+		Quantity = 1
+		Measurement = ч ложка
+	}
+	Ingredient
+	{
+		Product = сок
+		Quantity = 1
+		Measurement = ч . ложка
 	}
 Тщательно вымесить тесто . 
 	Step
